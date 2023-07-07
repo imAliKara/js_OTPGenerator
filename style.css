@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FCAEAE;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px -5px rgba(0,0,0,0.4);
+}
+.container p {
+    color: rgb(82, 82, 82);
+    font-size: 30px;
+    font-weight: 500;
+}.container p span {
+    color: #FF6666;
+    font-weight: 700;
+}button {
+    margin-top: 10px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background-color: #FF6666;
+    box-shadow: 5px 5px 30px -5px rgba(0,0,0,0.4);
+}
